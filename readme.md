@@ -3,7 +3,7 @@ _by EmanuelDms_
 > Olá Mundo! Esse projeto é uma cópia da interface do site da [Nasa][nasaLink] com **fins didáticos** de conceitos CSS que aprendi e venho aprendendo. Enjoy it!
 
 ## 💻 Preview
-To see a preview, click [here][https://emanueldms.github.io/NasaClone/].
+To see a preview, click [here](https://emanueldms.github.io/NasaClone/).
 
 ## :information_source: Installing
 
