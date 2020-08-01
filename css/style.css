@@ -1,3 +1,9 @@
+/* 
+* Observações:
+- Esse projeto apenas tem o intuito de estudo, sem quaisquer fins lucrativos;
+- Toda parte visual aqui criada foi exclusivamente feita por EmanuelDms
+*/
+
 *{
   font-family: "Titillium Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: white;
@@ -29,6 +35,7 @@ header{
   /* border: 4px solid red; */
 }
 
+/* Colocando espaçamentos semelhantes ao do site oficial */
 #logo{
   float: left;
   position: relative;
@@ -36,55 +43,57 @@ header{
   left: 15px;
 }
   /* == NAVBAR == */
-  nav{
-    
-    border: 1px solid red;
+  nav {
+    padding: 10px;
   }
-
     /* == utilities == */
-    /* nav #utilities{
-      float: ;
-    }
-
-    nav #utilities input{
-      padding: 10px;
-    }
-
-    nav #utilities em{
+    #utilities{
+      float: right;
       position: relative;
-      size: 3px;
+      bottom: 90px;
+      right: 20px;
+    }
+
+    #utilities input{
+      padding: 8px;
+      background: #555555c9;
+      border: none;
+      border-radius: 1px;
+    }
+
+    #utilities em{
+      position: relative;
       right: 25px;
-      color: black;
+      color: white;
       cursor: pointer;
-    } */
+    }
     /* /== utilities == */
 
-  nav #navOne{
+/*   #navOne{
     border: 1px solid blue;
-  }
+  } */
 
-  nav #navOne a{
+  #navOne a{
     font-size: 21px;
     margin: 0 -2px;
     padding: 10px 15px;
   }
 
-  nav #navOne a:hover{
+  #navOne a:hover{
     background: #0b3d91;
   }
 
-  nav #navOne hr{
+  #navOne hr{
     display: inline;
     background: #555555c9;
     border: 1px solid #555555c9;
   }
 
-  nav #navTwo{
-    margin-top: 2.25em;
+  /* #navTwo{
     border: 2px solid lawngreen;
-  }
+  } */
 
-  nav #navTwo a{
+  #navTwo a{
     padding: 10px 15px;
     font-size: 14px;
     margin: 0 -5px;
@@ -92,14 +101,14 @@ header{
     /* padding: 0 15px; */
   }
 
-  nav #navTwo hr{
+  #navTwo hr{
     background: #8a8a8a;
     border: 1.5px solid #8a8a8a;
     display: inline;
   }
   
 
-  nav #navTwo a:hover{
+  #navTwo a:hover{
     background: #858585;
   }
   /* //= NAVBAR == */
@@ -112,3 +121,9 @@ main{
 }
 
 /* /== MAIN CONTENT == */
+
+/* == FOOTER == */
+footer{
+  margin: 0 auto;
+}
+/* /== FOOTER == */
