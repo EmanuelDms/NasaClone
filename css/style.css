@@ -99,11 +99,11 @@ header{
     padding: 10px 15px;
   }
 
-  #navOne a:hover{
+  #navOne > a:hover{
     background: #0b3d91;
   }
 
-  #navOne hr{
+  #navOne > hr{
     display: inline;
     background: #555555c9;
     border: 1px solid #555555c9;
@@ -114,7 +114,7 @@ header{
     margin-top: 15px;
   }
 
-  #navTwo a{
+  #navTwo > a{
     padding: 10px 15px;
     font-size: 14px;
     margin: 0 -5px;
@@ -122,23 +122,30 @@ header{
     /* padding: 0 15px; */
   }
 
-  #navTwo hr{
+  #navTwo > hr{
     background: #8a8a8a;
     border: 1.5px solid #8a8a8a;
     display: inline;
   }
   
 
-  #navTwo a:hover{
+  #navTwo > a:hover{
     background: #858585;
   }
   /* //= NAVBAR == */
 /* //== //HEADER == */
 
 /* == MAIN CONTENT == */
+.newsTitle, p{
+  position: relative;
+  bottom: 50px;
+  width: 655px;
+  padding: 10px;
+  color: black;
+  background: rgb(255, 255, 255, 0.8);
+}
 main{
   text-align: justify;
-  /* border: 1px solid red; */
   width: 1366px;
   margin: 0 auto;
 }
@@ -152,22 +159,35 @@ main{
     margin-bottom: 10px;
   }
 
+  /* = FIRST = */
+  main #first section img{
+    width: 674.5px;
+    height: 615px;
+  }
+
   main #first{
     margin-right: 10px;
     float: left;
+  }
+  /* /= FIRST = */
+
+  /* = SECOND = */
+  main #second section img{
+    width: 329.75px;
+    height: 300px;
   }
 
   main #second{
     margin: 0;
     float: left;
   }
+  /* /= SECOND = */
 
-  /* = Third = */
+  /* = THIRD = */
   main #third{
     background-color: #39719e;
     font-size: 14px;
     float: right;
-    /* border: 1px solid red; */
     width: 319.75px;
     height: 300px;
   }
@@ -178,29 +198,26 @@ main{
   main #third a{
     display: inline-block;
   }
-
+  /* = THIRD = */
 
   main #box-header{
     padding: 0 3px;
   }
-  /* /= Third = */
-  /* main #fourth{
+  /* /= THIRD = */
+
+  /* = FOURTH = */
+  main #fourth{
     clear: both;
-  } */
-
-  main #first section img{
-    width: 674.5px;
-    height: 615px;
   }
-  main #second section img{
-    width: 329.75px;
-    height: 300px;
-  }
-
+  
   main #fourth section img{
     width: 674.5px;
     height: 300px;
   }
+  /* /= FOURTH = */
+
+  
+  
   /* /== MAIN NEWS == */
 
 /* /== MAIN CONTENT == */
